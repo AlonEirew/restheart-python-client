@@ -1,6 +1,7 @@
 import unittest
 
-from rest_heart_client import RestHeartClientApi, RestHeartClientResponse
+from restheart_python_client.rest_heart_client import RestHeartClientResponse, RestHeartClientApi
+
 get_etag = RestHeartClientResponse.get_etag
 get_status_code = RestHeartClientResponse.get_status_code
 get_document_url_location = RestHeartClientResponse.get_document_url_location
